@@ -31,7 +31,7 @@ class HomeModel: NSObject {
     
     var data = Data()
     
-    let urlPath: String = "https://lhsrobotics.net/sched.php"
+    let urlPath: String = "---INSERT PHP LINK---"
     
     func downloadItems(){
         let url: URL = URL(string: urlPath)!;
